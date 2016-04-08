@@ -1,0 +1,18 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @lists.name %>
+</p>
+<p>
+  <strong>Title:</strong>
+  <%= @lists.type %>
+</p>
+
+<p>
+  <strong>Quantity:</strong>
+  <%= @lists.quantity %>
+</p>
+
+<%= link_to 'Edit', edit_list_path(@lists) %> |
+<%= link_to 'Back', lists_path %>
